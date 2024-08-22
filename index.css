@@ -1,0 +1,154 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e9ecef;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    background: #343a40;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 5px solid #343a40;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Section styling */
+section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+section h2 {
+    color: #343a40;
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.character {
+    margin-bottom: 30px;
+}
+
+.character h3 {
+    color: #007bff;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.character p {
+    margin-bottom: 10px;
+}
+
+/* Latest Chapters */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li a {
+    color: #343a40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#contact ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#contact ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background: #343a40;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer
